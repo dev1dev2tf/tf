@@ -1,6 +1,6 @@
 <?php
-include "data.inc.php";
-require_once "lib.inc.php";
+include "inc/data.inc.php";
+require_once "inc/lib.inc.php";
 ?>
 <!DOCTYPE html>
 	<html>
@@ -10,16 +10,16 @@ require_once "lib.inc.php";
 			<title>
 				Создать
 			</title>
-			<link href="style.css" rel="stylesheet" />
-			<link href="русинстиль.css" rel="stylesheet" />
-			<link href="gossip.css" rel="stylesheet" />
-			<link href="create.css" rel="stylesheet" />
+			<link href="style/style.css" rel="stylesheet" />
+			<link href="styleрусинстиль.css" rel="stylesheet" />
+			<link href="style/gossip.css" rel="stylesheet" />
+			<link href="style/create.css" rel="stylesheet" />
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-			<script src="popup_enter.js"></script>
-			<script src="vkladki.js"></script>
+			<script src="js/popup_enter.js"></script>
+			<script src="js/vkladki.js"></script>
 <!-- 			<script src="js/jquery.tinyscrollbar.js" type="text/javascript"></script> -->
-<!-- 			<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> -->
-<!-- 			<script src="scrollbar.js" type="text/javascript"></script>			 -->
+<!-- 			<script type="jstext/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+<!-- 			<script src="js/scrollbar.js" type="text/javascript"></script>			 -->
 		
 		
 		</head>
@@ -47,7 +47,7 @@ require_once "lib.inc.php";
 			<div id="wrapper">
 				<div id="content">
 				  <?php
-				   include 'leftMenu.inc.php';
+				   include 'inc/leftMenu.inc.php';
 				  ?>
 				    
 				  
@@ -98,7 +98,7 @@ require_once "lib.inc.php";
 				  </div>-->
 				  
 				  <?
-				   include "authWindow.inc.php";
+				  // include "authWindow.inc.php";
 				  ?>
 				      
 				      
