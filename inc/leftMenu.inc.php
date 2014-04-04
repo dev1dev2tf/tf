@@ -6,7 +6,8 @@
  </div>
   <div class='sidebar_menu_content'>
     <?php
-      drawLeftMenu($leftMenu);
+      $html = new HTML();
+      $html->drawLeftMenu($leftMenu);
     ?>
   </div>
  <div class="sidebar_ent_reg">

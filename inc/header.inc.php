@@ -1,7 +1,8 @@
 <nav>
  <p class="logo">LOGO</p>
   <?php
-   if(!drawHorMenu($topMenu,'top')){
+   $html = new HTML();
+   if(!$html->drawHorMenu($topMenu,'top')){
     echo ERR_DRAW_MENU;
    }
   ?>

@@ -1,5 +1,6 @@
 <?php
- drawHorMenu($botMenu,'bot');
+ $html = new HTML();
+ $html->drawHorMenu($botMenu,'bot');
 ?>
  <div class="copyright">OV &copy 2013</div>
  <div class="autors">author and author</div>
