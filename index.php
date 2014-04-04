@@ -1,6 +1,6 @@
 <?php
-  include 'data.inc.php';
-  require_once 'lib.inc.php';
+  include 'inc/data.inc.php';
+  require_once 'inc/lib.inc.php';
 
 
 ?>
@@ -12,9 +12,9 @@
     <title>
      Nazvanie
     </title>
-    <link href="style.css" rel="stylesheet" />
-    <link href="русинстиль.css" rel="stylesheet" />
-    <script src="vkladki.js"></script>
+    <link href="style/style.css" rel="stylesheet" />
+    <link href="style/русинстиль.css" rel="stylesheet" />
+    <script src="js/vkladki.js"></script>
 			
 			
 		
@@ -25,7 +25,7 @@
 		  
     <header>
       <?php
-	include 'header.inc.php';
+	include 'inc/header.inc.php';
       ?>
     </header>
 			
@@ -35,13 +35,13 @@
 
       <div id="content">
 	<?php
-	  include 'content.inc.php';
+	  include 'inc/content.inc.php';
 	?>
       </div>
 		    
 	<footer>
 	 <?php
-	  include 'footer.inc.php';
+	  include 'inc/footer.inc.php';
 	 ?>
 	</footer>
 		  

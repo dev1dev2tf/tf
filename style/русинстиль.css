@@ -1,0 +1,184 @@
+/* Регистрационна форма */
+
+
+ 
+.tabbed_box {
+        margin: 20px auto;
+/*         width:300px; */
+	float:right;
+}
+.tabbed_area {
+      background-color:#E9E9E9 /*rgb(14, 14, 15)*/;
+      /*box-shadow: 0px 0px 15px rgb(14, 14, 15);*/
+      /*border-radius: 3px 3px 10px 10px;*/
+    /*  border: 1px solid rgb(10, 10, 11);*/
+      padding:5px;
+      
+      /*margin: 12px 12px 12px 12px;*/
+       
+        padding:8px;
+	width: 300px;height: 310px;
+    
+}
+
+ul.tabs {
+        margin:0px; padding:0px;
+}
+ul.tabs li {
+        list-style:none;
+        display:inline;
+
+}
+
+ul.tabs li a {
+	display:block;
+	width:122px;
+	float:left;
+	text-align:center;
+        background-color:#E9E9E9/*#464c54*/;
+/*         color:#ffebb5; */
+	color:#321E19;
+        padding:8px 14px 8px 14px;
+        text-decoration:none;
+        font-size:9px;
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        font-weight:bold;
+        text-transform:uppercase;
+        /*border:1px solid #464c54;*/
+	-webkit-box-shadow: inset 0 -1px 0 #7EB4EA;
+	   -moz-box-shadow: inset 0 -1px 0 #7EB4EA;
+                box-shadow: inset 0 -1px 0 #7EB4EA;
+}
+ul.tabs li a:hover {
+/*        background-color:#949497;
+        border-color:#2f343a;*/
+	-webkit-box-shadow:inset 0 1px 0 0 #7EB4EA, inset -1px 0 0 #7EB4EA, /*inset 0 -1px 0 #7EB4EA,*/ inset 1px 0 0 #7EB4EA;
+	  -moz-box-shadow: inset 0 1px 0 0 #7EB4EA, inset -1px 0 0 #7EB4EA, /*inset 0 -1px 0 #7EB4EA,*/ inset 1px 0 0 #7EB4EA;
+                box-shadow:inset 0 1px 0 0 #7EB4EA, inset -1px 0 0 #7EB4EA, /*inset 0 -1px 0 #7EB4EA,*/ inset 1px 0 0 #7EB4EA;
+				
+/* 	border:1px solid #7EB4EA; */
+	background:#E3F0FC;
+}
+ul.tabs li a.active {
+	-webkit-box-shadow:inset 0 1px 0 0 #569DE5, inset -1px 0 0 #569DE5, /*inset 0 -1px 0 #569DE5,*/ inset 1px 0 0 #569DE5;
+	  -moz-box-shadow: inset 0 1px 0 0 #569DE5, inset -1px 0 0 #569DE5, /*inset 0 -1px 0 #569DE5,*/ inset 1px 0 0 #569DE5;
+	        box-shadow:inset 0 1px 0 0 #569DE5, inset -1px 0 0 #569DE5, /*inset 0 -1px 0 #569DE5,*/ inset 1px 0 0 #569DE5;
+/* 	border:1px solid #569DE5; */
+	background:#CEE5FC;
+		
+	-webkit-transition:all 0s;
+           -moz-transition:all 0s;
+             -o-transition:all 0s;
+                transition:all 0s;
+        /*background-color:#ffffff;
+        color:#282e32;
+        border:1px solid #464c54;
+        border-bottom: 1px solid #ffffff;*/
+}
+
+
+.content {
+	clear:both;
+        background-color:/*#ffffff*/#CEE5FC;
+        padding:10px;
+        border:1px solid /*#464c54*/#569DE5;
+	border-top:none;
+    	height:250px;
+}
+ #content_2 { display:none; }
+ 
+ ul.tabs {
+        margin:0px; padding:0px;
+        margin-top:5px;
+        margin-bottom:6px;
+}
+
+/*РЕГ ФОРМА КСС*/
+.enter_form li{
+  list-style-type:none;
+  padding:10px 0;
+  text-align:center;
+}
+.enter_form input{
+ height:30px; 
+  
+}
+/*.enter_form input[type=email]:focus, .enter_form input[type=password]:focus{
+  border: 1px solid #6dcff6;
+  webkit-box-shadow:0 0 5px rgba(109,207,246,.5);
+    -moz-box-shadow:0 0 5px rgba(109,207,246,.5);
+	 box-shadow:0 0 5px rgba(109,207,246,.5);*/
+  
+}
+.enter_button{
+ 
+}
+.reg_form li{
+  list-style-type:none;
+  padding:3px 0;
+  text-align:center;
+}
+.reg_form input{
+ height:30px; 
+}
+.reg_button{
+}
+
+
+/*.button {
+    font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 15px 0px 0px 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #ED5E2F;
+    color: #FFF;
+    border: 0px none;
+    outline: 0px none;
+}
+
+.button:hover {
+    background: #74A599;
+}
+
+.button:active {
+    background: #F6A953;
+    
+}*/
+/* Лента новостей */
+#fresh_gossips{
+display:block;
+float:left;
+width:450px;
+height:500px;
+margin:20px auto;
+background:#E9E9E9;
+overflow:hidden;
+}
+.news_stripe{
+/*   overflow:hidden; */
+
+}
+.news_stripe li{
+height:80px;
+list-style-type:none; 
+/* border:1px solid black; */
+padding:10px;
+
+} 
+.news_stripe li a{
+  font:14px/1 Tahoma, Verdana, sans-serif;
+  overflow:hidden;
+  text-decoration:none;
+  color:#321E19;
+  display:block;
+  height:100%;
+  width:100%;
+/*   border:1px solid black; */
+/*   padding:10px; */
+}
+
